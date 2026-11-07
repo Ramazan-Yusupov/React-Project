@@ -1,1 +1,48 @@
 @import "tailwindcss";
+@import "./variables.css";
+@import "./typography.css";
+@import "./animations.css";
+
+:root {
+  color-scheme: dark;
+  background: var(--color-bg);
+  color: var(--color-text);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(
+      ellipse at 50% -20%,
+      rgba(99, 102, 241, 0.16),
+      transparent 55%
+    ),
+    var(--color-bg);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  color: white;
+  background: #6366f1;
+}

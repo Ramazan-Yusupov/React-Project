@@ -1,0 +1,21 @@
+body {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+}
+
+h1 {
+  font-size: clamp(2.7rem, 7vw, 5.8rem);
+  font-weight: 750;
+}
+
+h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+}
